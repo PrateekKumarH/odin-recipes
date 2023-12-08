@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Besley, serif;
+  }
+.header{
+    color: blueviolet;
+    background-color: aliceblue;
+    display:flex;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.left{
+    text-align: center;
+    display:flex;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight:900;
+    font-style: italic;
+    padding: 0%;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    padding:0%;
+    gap:16px;
+}
+
+.right{
+    text-align: center;
+    display: flex;
+    gap: 16px;
+
+}
+
+button{
+    border: none;
+    color:aliceblue;
+    background-color: blueviolet;
+    padding-left: 4px;
+    border-radius: 12px;
+}
+
+.profile-image {
+    background:blueviolet;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height:  48px;
+  }
+
+a{
+    text-decoration: none;
+    color:blueviolet;
+}
+
+
+
+  
