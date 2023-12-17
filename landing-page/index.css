@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(54, 54, 116, 0.795);
+}
+.left{
+    justify-content: center;
+    padding: 16px;
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-right: 90px;
+}
+
+a{
+    padding-left: 24px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.logo{
+    color: rgb(33, 23, 23);
+}
+button{
+    cursor: pointer;
+}
+
+.block-1{
+    background-color: rgba(54, 54, 116, 0.795);
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+img{
+    height: 180px;
+    width: 400px;
+}
+
+button{
+    background-color: rgb(51, 123, 218);
+    color:aliceblue;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom:4px;
+    border-color: rgba(54, 54, 116, 0.795);
+}
+
+.block-2{
+    height: 285px;
+}
+
+.images-desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+h5{
+    padding-top: 0%;
+    padding-left: 180px;
+}
+
+h2{
+    text-align: center;
+    }
+
+.block-3{
+    background-color: rgb(229, 229, 229);
+    align-items: center;
+    height: 200px;
+}
+.para{
+    padding-top: 30px;
+    text-align: center;
+}
+h4{
+    padding-left: 60%;
+    padding-bottom: 30px;
+}
+
+.block-4{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.call{
+    background-color: rgb(51, 123, 218);
+    color: aliceblue;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+}
+
+button{
+    border-color: rgb(211, 219, 227);
+}
+
+.footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(37, 43, 48);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
